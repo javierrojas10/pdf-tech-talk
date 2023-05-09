@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1e90ff;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .category {
+      font-weight: bold;
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    .category ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .category li {
+      margin-bottom: 5px;
+    }
+
+    .category a {
+      font-weight: normal;
+      color: #555;
+    }
+
+    footer {
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      /* altura del footer */
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Recursos adicionales para la creación de PDFs con Node.js</h1>
+  </header>
+
+  <div class="category">
+    <h2>Librerías</h2>
+    <ul>
+      <li><a href="https://pdfkit.org/">PDFKit</a></li>
+      <li><a href="https://pdf-lib.js.org/">PDF-LIB</a></li>
+      <li><a href="https://github.com/julianhille/MuhammaraJS">MuhammaraJS</a></li>
+      <li><a href="https://wkhtmltopdf.org/">wkhtmltopdf</a></li>
+    </ul>
+  </div>
+
+  <div class="category">
+    <h2>Tutoriales y documentación</h2>
+    <ul>
+      <li><a href="https://pdfkit.org/">PDFKit Documentation</a></li>
+      <li><a href="https://pdf-lib.js.org/">PDF-LIB Documentation</a></li>
+      <li><a href="https://github.com/julianhille/MuhammaraJS/tree/develop/docs">MuhammaraJS Documentation</a></li>
+      <li><a href="https://wkhtmltopdf.org/docs/">wkhtmltopdf Documentation</a></li>
+    </ul>
+
+  </div>
+  <div class="category">
+    <h2>Consejos y trucos</h2>
+    <ul>
+      <li><a href="https://pdfkit.org/docs/text.html#fonts">Cómo agregar fuentes personalizadas a PDFKit</a></li>
+      <li><a href="https://docs.apryse.com/documentation/nodejs/guides/features/optimization/">Cómo reducir el tamaño de
+          archivos PDF con Node.js</a></li>
+    </ul>
+  </div>
+  <footer>
+    Desarrolado para {{ company }} por {{ author }}
+  </footer>
+</body>
+
+</html>
